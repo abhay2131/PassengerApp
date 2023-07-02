@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Counter.</title>
+    <link rel="icon" href="station.icon">
+    <link rel="stylesheet" href="style.css">
+</head>   
+<body>
+    <!-- <p id="welcome-el"></p> -->
+    <h1 class="heading">Passanger Counter</h1>
+    <div class="content">
+    <div class="display">
+        <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+
+        <!--1. Create a Increment button with the id="increment-btn" -->
+        <button id="increment-btn"  onclick="increment()">INCREMENT</button>
+
+            <!-- 2. Create a save SAVE button.
+            Set the id to save-btn and call the save() when it's clicked. -->
+        <button id="save-btn" onclick="save()">SAVE</button>  
+
+         <!-- 3. Create a save RESET button.
+            Set the id to "reset-btn" and call the reset() when it's clicked. -->
+        <button id="reset-btn" onclick="reset()"> RESET </button>
+        <p id="save-el">previous enteries: </p>
+        <script type="text/JavaScript" src="script.js"></script>  <script type="text/JavaScript" src="script.js"></script>
+    </div>
+</div>
+</body>
+</html>
